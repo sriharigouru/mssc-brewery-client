@@ -84,7 +84,7 @@ class BreweryClientTest {
 		CustomerDto customerDto = CustomerDto.builder().uuid(null).name("my customer name")
 				.build();
 		breweryClient.updateCustomer(UUID.randomUUID(), customerDto);
-
+		System.out.println("there were no exception");
 	}
 
 	@Test
